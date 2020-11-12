@@ -1,0 +1,29 @@
+<div class="container">
+    <div style="text-align: center;">
+        <h1 id="heading">Sairyö No Checklist</h1>
+    </div>
+    <div id="add-item">
+        <input type="text" placeholder="What needs to be done?" id="item-input" (keyup.enter)="createToDo($event.target)">
+        <button class="btn btn-success btn-floating btn-lg" id="add-btn" (click)="createToDoBtn($event.target)">
+            <i class="fas fa-clipboard-list"></i>
+        </button>
+    </div>
+    <div style="text-align: center; margin-bottom: 1rem;">
+        <button class="btn btn-warning btn-lg" (click)="resetList()">
+            <i class="fas fa-sync-alt"></i>&nbsp;&nbsp;Reset List
+        </button>
+    </div>
+    <div *ngFor="let todo of toDoList; index as i;">
+        <div class="todo-card">
+            <div class="todo-data">
+                <div class="todo-title">{{todo.title}}</div>
+                <small>Date Added : {{todo.added | date:'short'}}</small>
+            </div>
+            <div class="todo-btns">
+                <button class="btn btn-danger btn-floating btn-center" (click)="removeToDo(i)">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

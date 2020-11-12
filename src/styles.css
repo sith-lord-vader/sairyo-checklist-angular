@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #121212;
+}
+
+body {
+    /* 115px is the height of my footer */
+    padding-bottom: 150px;
+    background-color: #121212;
+    color: rgba(255, 255, 255, 0.74);
+}

@@ -1,0 +1,19 @@
+.special-color-dark{
+    background-color: #263238;
+}
+
+.footer-copyright{
+    background-color: #1E282D;
+}
+
+.btn-floating{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #4f4f4f;
+}
