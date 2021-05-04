@@ -1,27 +1,10 @@
-# ToDo
+# A Simple Checklist, To-DO and Notes Taking App Made with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
+Very simple project. To contribute just clone this repo and use the commands "npm ci" to install the packages and then "ng serve" to serve the web app in your browser.
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The project isn't well structured as I made this during early stages of learning Angular. I primarily develop on React and still use it, but thought of giving Angular a try. Anyways code is simple and self-explanatory.
 
-## Code scaffolding
+## Thanks for taking your time in viewing this project 😀
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
